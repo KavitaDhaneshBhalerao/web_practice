@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h2>This is HTML Form Tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="myRollnumber"> Roll Number</label>
+        <div>
+             <input type="number" name="myRollNumber" id="myRollnumber">
+        </div>
+        <br>
+        <label for="myDivision"> Division</label>
+        <div>
+             <input type="text" name="myDivision" id="myDivision">
+        </div>
+        <br>
+        <label for="myEmail">Email ID</label>
+        <div>
+            <input type="email" name="MyEmail" id="myEmail">
+        </div>
+        <br>
+        <label for="time"> Time</label>
+        <div>
+            <input type="time" name="myTime" id="time">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+             <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <label for="eligibility">Eligibility Criteria</label>
+        <div>
+            <input type="checkbox" id="eligibility">
+        </div>
+        <br>
+        <div>
+            Gender: <br><label for="male">Male</label>
+             <input type="radio" name="myGender" id="male"> <br>
+              <label for="female">Female</label><input type="radio" name="myGender" id="female"> <br>
+              <label for="other">Other</label><input type="radio" name="myGender" id="other">
+        </div>
+        <br>
+        <div> 
+            <label for="car">Car</label> <br>
+            <select name="mycar" id="car"> 
+                <option value="indi">Indica</option>
+                <option value="swif">Swift</option>
+                <option value="suzu">Suzuki</option>
+                
+            </select>
+        </div>
+        <br>
+            <br><label for="myself"> wright About My Self</label> <div> <textarea name="myself" id="myself" cols="40" rows="5"  id="myself"> </textarea>
+        </div>
+        <br>
+        <div>
+        <label for="submit"></label> <input type="submit" value="Submit Now" id="submit> <br> 
+        <br> <label for="reset"></label><input type="reset"  value="Reset Now" id="reset">
+        </div>
+
+
+
+
+
+    </form>
+</body>
+
+</html>

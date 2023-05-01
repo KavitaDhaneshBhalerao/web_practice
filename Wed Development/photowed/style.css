@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.2)50%,rgba(0,0,0,0.2)50%),url(photo2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form{
+    width: 150px;
+    height: 250px;
+    color: #ffffffdd;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form h1{
+text-align: center;
+margin-bottom: 20px;
+font-size: 20px;
+color: aqua;
+}
+
+.form input{
+    width:100px ;
+    height: 35px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+    border-bottom: 1px solid #fffffff4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: bisque;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color:#ffffffe9 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.btnn a:hover{
+    color: #cd19af;
+}
+
+
+
+

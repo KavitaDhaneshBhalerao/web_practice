@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout1</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            min-height: 100px;
+            background-color: teal;
+            margin: auto;
+        }
+
+        #logo {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 50px;
+            background-color: bisque;
+            align-items: center;
+            padding-left: 2%;
+        }
+
+        #nav {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 30px;
+            background-color: bisque;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #header-baner {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 100px;
+            background-color: bisque;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 400px;
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+
+        #sidebar {
+            display: flex;
+            flex-direction: row;
+            flex-basis: 20%;
+            background-color: rgb(221, 169, 110);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #body-area {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(217, 206, 105);
+            flex-basis: 75%;
+            justify-content: center;
+            align-items: center;
+        }
+        #footer{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 50px;
+            background-color: rgb(174, 246, 138);
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="logo">logo</div>
+        <div id="nav">
+            
+<nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+  </nav>
+        </div>
+        <div id="header-baner">Header-Banare</div>
+        <div id="main">
+            <div id="sidebar">Sidebar</div>
+            <div id="body-area">Body Area</div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+
+</html>
